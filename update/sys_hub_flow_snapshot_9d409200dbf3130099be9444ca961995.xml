@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"0ff29ee0-3914-4348-9e32-d5c626821156.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"0ff29ee0-3914-4348-9e32-d5c626821156.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"f2a6d3cb-feea-4958-95b9-39d6f5e94fff.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"24a6b5b0-41ce-4354-a9d8-9c6d814f5d6f.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"7dea0af7-36e8-4a58-baad-fadcd657b5e3.property_value","label":"1➛Property value","type":"string","base_type":"string"}]</label_cache>
+        <name>Check for Overdue NeedIt Tasks</name>
+        <parent_flow display_value="Check for Overdue NeedIt Tasks">544f42ccdbb3130099be9444ca961905</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-03 18:50:46</sys_created_on>
+        <sys_id>9d409200dbf3130099be9444ca961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check for Overdue NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_9d409200dbf3130099be9444ca961995</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-03 18:50:46</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>
